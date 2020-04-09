@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pb-br">
+	<head>
+        <meta charset="UTF-8" >
+        <title>CALCULADORA</title>
+        <link rel="stylesheet" href="style.css">
+		<script src="https://kit.fontawesome.com/cfbfa23fac.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+	    <section>
+	        <div id="conteudoSection">
+        		<div id="resposta">
+        		    <div id="historybox">
+            		    <i class="fas fa-history" id="iconeHist" onclick="historicoGeral()"></i>
+            		    <i class="fas fa-history" id="iconeEsconderHist" onclick="EsconderhistoricoGeral()"></i>
+            		    <p id="historicorecente">
+            		        
+                		    <span id="histValue1"></span>
+                		    <span id="histOper"></span>
+                		    <span id="histValue2"></span>
+                		    <span id="resultado2"></span>
+            		    </p>
+        		    </div>
+        		    <p id="conteudo">
+            		    <input type="number" id="valor1" readonly="true">
+            		    <input type="text" id="operador" readonly="true">
+            		    <input type="number" id="valor2" readonly="true" >
+            		    <input type="text" id="resultado1" readonly="true" >
+            		    </p>
+        		</div>
+        		    <div id="calc">
+            		  <div>
+            		      <button onclick="number(7)">7</button>
+            	          <button onclick="number(8)">8</button>
+            	          <button onclick="number(9)">9</button>
+            	          <button onclick="operador('+')">+</button>
+            		  </div>
+            		  <div>
+            		      <button onclick="number(4)">4</button>
+            	          <button onclick="number(5)">5</button>
+            	          <button onclick="number(6)">6</button>
+            	          <button onclick="operador('-')">-</button>
+            		  </div> 
+            		  <div>
+            		      <button onclick="number(1)">1</button>
+            	          <button onclick="number(2)">2</button>
+            	          <button onclick="number(3)">3</button>
+            	          <button onclick="operador('*')">*</button>
+            		  </div> 
+            		  <div>
+            		      <button onclick="number(0)">0</button>
+            	          <button onclick="resultado()">=</button>
+            	          <button onclick="operador('x2')">x²</button>
+            	          <button onclick="operador('/')">/</button>
+            		  </div>
+            	   </div>	  
+        	</div>	  
+        </section>
+        <script src="script.js"></script>
+	</body>
+</html>

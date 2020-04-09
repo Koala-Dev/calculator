@@ -1,0 +1,119 @@
+body {
+	
+}
+section{
+    margin:0;
+    width:440px;
+    height:350px;
+    border-radius: 10px;
+    border:solid 1px #BDBDBD;
+}
+#historybox{
+    width:390px;
+    margin-left:5px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+#conteudoSection{
+    margin:15px 0 0 13px;
+}
+#resposta{
+    border:solid 1px #BDBDBD;
+    border-radius: 10px;
+    width:410px;
+    height:100px;
+    margin-bottom:5px;
+}
+#resposta:hover{
+    border-color:#A4A4A4;
+}
+button {
+    width:100px;
+    height:50px;
+    margin-bottom:5px;
+    cursor: pointer;
+    background-color:#D8D8D8;
+    outline: none;
+    border:none;
+    border-radius: 5px;
+}
+button:hover{
+    background-color:grey;
+}
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+}
+
+#historicorecente{
+    margin-right:5px;
+    margin-top:10px;
+    text-align:right;
+    font-size:15px;
+}
+#iconeHist{
+    margin-top:10px;
+}
+#iconeEsconderHist{
+    margin-top:10px;
+}
+#conteudo{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top:5px;
+    margin-right:5px;
+    text-align:right;
+}
+#valor1{
+    outline:none;
+    text-align:center;
+    margin-right:15px;
+    width:50px;
+    font-size:40px;
+    border:none;
+    height:40px;
+    
+}
+#operador{
+    outline:none;
+    width:25px;
+    font-size:40px;
+    display:none;
+    border:none;
+}
+#valor2{
+    display:none;
+    text-align:left;
+    outline:none;
+    text-align:right;
+    width:25px;
+    font-size:40px;
+    border:none;
+    height:40px;
+}
+
+#resultado1 {
+    width:150px;
+    text-align:right;
+    height:40px;
+    font-size:40px;
+    display:none;
+    border:none;
+}
+
+#sectionHistoric{
+    display:none;
+}
+
+#iconeEsconderHist {
+    display:none;
+}
+
+#resultadoHistoricoGeral{
+    margin:10px 0px 0px 5px;
+}
