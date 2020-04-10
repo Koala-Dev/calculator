@@ -173,5 +173,36 @@ function historicoGeral(){
 
 }
 
+function resetartudo(){
+    let valor1 = document.getElementById('valor1')
+    let valor2 = document.getElementById('valor2')
+    let operacao = document.getElementById('operador')
+    let histValue1 = document.getElementById('histValue1')
+    let histValue2 = document.getElementById('histValue2')
+    let histOper = document.getElementById('histOper')
+    histValue1.innerHTML =''
+    histValue2.innerHTML =''
+    histOper.innerHTML =''
+    valor1.value =''
+    valor2.value =''
+    operacao.value =''
+}
 
+function limparcampo(){
+    let valor1 = document.getElementById('valor1')
+    let valor2 = document.getElementById('valor2')
+    let operacao = document.getElementById('operador')
+    let histValue1 = document.getElementById('histValue1')
+    let histValue2 = document.getElementById('histValue2')
+    
+    if(operacao.value==''){
+        valor1.value =''
+        histValue1.innerHTML =''
+    }else{
+        valor2.value =''   
+        histValue2.innerHTML =''
+    }
+
+
+}
 

@@ -1,12 +1,17 @@
 body {
-	
+	background-color:  gray;
 }
 section{
-    margin:0;
+    margin:auto;
+    margin-top:15%;
     width:440px;
-    height:350px;
+    height:410px;
     border-radius: 10px;
     border:solid 1px #BDBDBD;
+    border:solid 2px rgb(130, 239, 76);
+}
+section:hover{
+    box-shadow: 0px 0px 10px black;
 }
 #historybox{
     width:390px;
@@ -20,13 +25,14 @@ section{
 }
 #resposta{
     border:solid 1px #BDBDBD;
+    border:solid 2px rgb(130, 239, 76);
     border-radius: 10px;
     width:410px;
     height:100px;
     margin-bottom:5px;
 }
 #resposta:hover{
-    border-color:#A4A4A4;
+    box-shadow: 0px 0px 5px black;
 }
 button {
     width:100px;
@@ -34,12 +40,25 @@ button {
     margin-bottom:5px;
     cursor: pointer;
     background-color:#D8D8D8;
+    background-color: rgb(130, 239, 76);
     outline: none;
     border:none;
     border-radius: 5px;
+    font-size: 15px;
 }
 button:hover{
-    background-color:grey;
+    background-color: rgb(34, 73, 3);
+    font-size: 20px;
+    color: rgb(55, 255, 0);
+}
+
+#limparcampo{
+    margin-top: 5px;
+    width: 204px;
+}
+#resetar{
+    width: 204px;
+    margin-top: 5px;
 }
 input[type=number]::-webkit-inner-spin-button { 
     -webkit-appearance: none;
@@ -54,14 +73,17 @@ input[type=number] {
     margin-top:10px;
     text-align:right;
     font-size:15px;
+    color: rgb(189, 251, 158);
 }
 #iconeHist{
+    color: rgb(189, 251, 158);
     margin-top:10px;
 }
 #iconeEsconderHist{
     margin-top:10px;
 }
 #conteudo{
+    color: rgb(130, 239, 76);
     display:flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -70,6 +92,8 @@ input[type=number] {
     text-align:right;
 }
 #valor1{
+    color: rgb(189, 251, 158);
+    background-color:  gray;
     outline:none;
     text-align:center;
     margin-right:15px;
@@ -80,6 +104,8 @@ input[type=number] {
     
 }
 #operador{
+    color: rgb(189, 251, 158);
+    background-color:  gray;
     outline:none;
     width:25px;
     font-size:40px;
@@ -87,6 +113,8 @@ input[type=number] {
     border:none;
 }
 #valor2{
+    color: rgb(189, 251, 158);
+    background-color:  gray;
     display:none;
     text-align:left;
     outline:none;
@@ -98,6 +126,8 @@ input[type=number] {
 }
 
 #resultado1 {
+    color: rgb(189, 251, 158);
+    background-color:  gray;
     width:150px;
     text-align:right;
     height:40px;
