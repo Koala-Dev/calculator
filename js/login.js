@@ -36,7 +36,7 @@ function logar(){
         if(usuario.value==UsuarioAtual&&senha.value==senhaAtual){
             localStorage.setItem("acesso",true)
             alert("Redirecionando para página...")
-            window.location.href="index.html"
+            window.location.href="https://koala-dev.github.io/calculator/"
         }else {
             alert("Usuário ou senha incorreta")
         }
